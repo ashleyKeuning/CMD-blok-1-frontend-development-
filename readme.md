@@ -67,11 +67,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken]
 
 deze staan in de images map 
--Bodyandfit 1,2,3
--JBL 1,2,3
+(images/Bodyandfit.png) 
 
 
 **Breakdown-schets(en):**
