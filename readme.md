@@ -56,12 +56,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw- ehm ik heb geen idee voor welke niveau de kleuren s
+**Je startniveau:** ik heb al wel wat kennis maar ik ben ook geen pro, ik heb nog vooral moeite met javascript, html en css heb ik al wel goed onder de knie
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:**
+ik kies uit responsive omdat ik dit graag wil leren en kunnen, als ik dit begrijp en onder de knie heb wil ik de surface plane nog proberen-
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
-
+**Je opdracht:** 
 https://www.jbl.nl 
 of
 https://www.bodyandfit.com/nl-nl?gclid=CjwKCAjwqML6BRAHEiwAdquMnehIgTVyAeG3pLFEi3I5APLn3fFdtl0gOGvDSQk-bP7ZM9fmosRYBBoCzUYQAvD_BwE
@@ -69,7 +69,7 @@ https://www.bodyandfit.com/nl-nl?gclid=CjwKCAjwqML6BRAHEiwAdquMnehIgTVyAeG3pLFEi
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Bodyandfit.png), [](images/Bodyandfit 2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Bodyandfit.png), (images/JBL.png)
 
 
 
