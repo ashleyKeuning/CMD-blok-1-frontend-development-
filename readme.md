@@ -70,7 +70,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken]
 
 deze staan in de images map 
-(images/Bodyandfit.png) 
+images/Bodyandfit.png   
 
 
 **Breakdown-schets(en):**
