@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Ashley Keuning-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -56,16 +56,24 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** -kies uit zwart, rood óf blauw- ehm ik heb geen idee voor welke niveau de kleuren s
 
 **Je focus:** -kies uit responsive óf surface plane-
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
+https://www.jbl.nl 
+of
+https://www.bodyandfit.com/nl-nl?gclid=CjwKCAjwqML6BRAHEiwAdquMnehIgTVyAeG3pLFEi3I5APLn3fFdtl0gOGvDSQk-bP7ZM9fmosRYBBoCzUYQAvD_BwE
+
+
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Bodyandfit.png), [](images/Bodyandfit 2.png)
+
+
+
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
