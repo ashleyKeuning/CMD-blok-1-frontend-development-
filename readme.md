@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. https://www.jbl.nl
 2. -bron 2-
 3. -...-
 
@@ -38,11 +38,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+ik had in het begin erg veel moeite om weer intekomen met programeren/coderen, omdat ik dit al wat maanden niet heb gedaan was ik de basis dingen/elementen alweer vergeten, dit heb ik weer kunnen oppakken.
+
+ik heb zelf moeite met het volgen van de lessen en opdrachten, dus loop ik iets achter, maar ik zorg dat ik dit weer op pak.
+
+ik heb op dit moment moeite met de navigatie balk, deze bestaan bij mij uit iconen, het wat moeite met het positioneren.
+
+voor derest moet ik nog content, linkjes, afbeeldingen op de juiste plek positioneren.
+
+ik heb voor nu 1/3 van 1 pagina af, ik weet zelf dat ik erg aan de bak moet, maar dit komt goed.
+
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![voortgangscreenshot1](images/screenshotvoortgang1.png) 
+
+![voortgangscreenshot1,2](images/screenshotvoortgang1,2.png) 
+
+![voortgangscreenshot1,3](images/screenshotvoortgang1,3.png) 
+
 
 ### Agenda voor meeting
 
@@ -63,13 +77,12 @@ ik kies uit responsive omdat ik dit graag wil leren en kunnen, als ik dit begrij
 
 **Je opdracht:** 
 https://www.jbl.nl 
-of
-https://www.bodyandfit.com/nl-nl?gclid=CjwKCAjwqML6BRAHEiwAdquMnehIgTVyAeG3pLFEi3I5APLn3fFdtl0gOGvDSQk-bP7ZM9fmosRYBBoCzUYQAvD_BwE
+- ik heb voor deze site gekozen, omdat ik zelf van muziek houd en wat Jbl producten zelf heb.
 
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/Bodyandfit.png), (images/JBL.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/JBL.png)
 
 
 
