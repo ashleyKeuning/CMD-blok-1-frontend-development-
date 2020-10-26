@@ -7,8 +7,31 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. https://www.jbl.nl
-2. -bron 2-
-3. -...-
+2. dlo voor de opdrachten
+3. Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+
+Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com </a>
+
+Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+4. https://www.youtube.com/watch?v=wffK2OIt8u0
+5. https://www.youtube.com/watch?v=alsxCvrbeko
+6. https://codepen.io/joeaugie/pen/zYBvOJm
+7. 
+
 
 
 
@@ -16,25 +39,46 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-**Screenshot(s):**
+-ik had erg wat moeite met het positioneren van de detail pagina, aangezien er veel veranderd per device/maat, alleen heb ik uiteindelijk de sidebar op de detailpagina niet zo gekregen zoals ik het had willen gehad maar ik ben overal erg blij met mijn eindresultaat-
+
+![voortgangscreenshot1](images/detailpagina1.png) 
+
+![voortgangscreenshot1](images/detailpagina2.png) 
+
+![voortgangscreenshot1](images/detailpagina3.png) 
+
+![voortgangscreenshot1](images/detailpagina4.png) 
+
+![voortgangscreenshot1](images/detailpagina5.png) 
+
+![voortgangscreenshot1](images/detailpagina6.png) 
 
 -screenshot(s) van je eindresultaat-
+![voortgangscreenshot1](images/eindresultaat1.png) 
 
+![voortgangscreenshot1,2](images/eindresultaat2.png) 
 
+![voortgangscreenshot1,3](images/eindresultaat3.png) 
+
+![voortgangscreenshot1,3](images/eindresultaat4.png) 
+
+![voortgangscreenshot1,3](images/eindresultaat5.png) 
+
+![voortgangscreenshot1,3](images/eindresultaat6.png) 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+-een paar dagen voor deze voortgang gesprek had ik besloten dat ik opnieuw ga beginnen, omdat mijn code erg onoverzichtelijk was en ik zelf mijn code niet meer begreep. deze week had ik weer een gesprek met danny en hij had twijfels over of ik dit wel ga redden en halen.-
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
-
+-dit keer had ik een gesprekje met de student assistenten,
+ik liep erg achter vergeleken met de rest van mijn groepje, ik had ook weinig zicht op wat ik deed en wat er moest gebeuren. ik was ook niet veel verder dan de laatste voortgang gesprek. er werd mij deze week vertelt dat de gitbhub om de dag wel moest worden geupdate, dit wist ik niet en had ik dus ook niet gedaan.-
 
 ## Voortgang 1 (week 3)
+-het ging rederlijkgoed deze week had ik een gesprek met danny, ik had alle html er in gezet en een beetje css, mijn eerste pagina was rederlijk af, 2de pagina moest nog gemaakt worden.-
+
 
 ### Stand van zaken
 
@@ -60,11 +104,11 @@ ik heb voor nu 1/3 van 1 pagina af, ik weet zelf dat ik erg aan de bak moet, maa
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-voor elke voortgang, zijn we op teams actief, we helpen elkaar als er vragen zijn-
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-we gingen alleen chatten niet bellen en dit was ook niet echt nodig-
 
 
 

@@ -13,48 +13,60 @@ nav ul {
     margin: auto;
     justify-content: center;
     padding: 0px;
-    height: 60px
+    height: 60px;
 }
 
 nav ul li {
-    margin: 0px;
-
+    margin: 0vw 5vw;
 }
 
 
 img.hamburger {
-    width: 80px;
-    height: 60px;
+    width:30px;
+    height:30px;
     margin-left: 0;
     margin-right: 60px;
     margin-bottom: 60px;
-    margin-top: 0px;
+    margin-top: 5vw;
     display: flex;
 }
 
 img.logo {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height:60px;
     display: flex;
+        margin-top: 2vw;
 
 }
 
 img.search {
-    width: 70px;
-    height: 70px;
+    width: 25px;
+    height: 60px;
     margin-bottom: 60px;
     display: flex;
+    margin-top:1vw;
+     margin-left:7vw;
+     margin-right:0vw;
 }
 
 img.kar {
-    width: 60px;
+    width: 25px;
     height: 60px;
     display: flex;
+    margin-top:1vw;
+}
+
+img.voorpagina {
+    width: 300px;
+    height: 320px;
+    display: block;
+    float: center;
+    margin: 2em;
 }
 
 img {
     margin: auto;
-    width: 300px;
+    width: 320px;
     height: 320px;
     display: block;
     float: center;
@@ -85,7 +97,7 @@ p {
     margin-bottom: 70px;
 }
 
-button {
+a.button {
     background: #FF3300;
     border: 2px solid #FF3300;
     color: #fff;
@@ -102,6 +114,7 @@ button {
     z-index: auto;
     margin: auto;
     margin-bottom: 150px;
+    text-align: center;
 }
 
 div {
@@ -113,61 +126,237 @@ div {
 }
 
 
-h1.div{ 
-box-sizing: border-box;
-color:black;
-font-family:'Helvetica', sans-serif;
-font-size: 24px;
-letter-spacing: 1.344px;
-line-height: 26.4px;
-margin-bottom: 30px;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 40px;
-padding-bottom: 35px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 65px;
-text-align: center;
-text-transform: none;
-    
+h1.div {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1.344px;
+    line-height: 26.4px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 65px;
+    text-align: center;
+    text-transform: none;
+
 }
 
-p.div1{
-box-sizing: border-box;
-display: block;
-font-family: 'Helvetica', sans-serif;
-font-size: 15px;
-line-height: 21.4px;
-justify-content: center;
-line-height: 20px;
-margin-top: 70px;
-text-align:center;  
+p.div1 {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    line-height: 21.4px;
+    justify-content: center;
+    line-height: 20px;
+    margin-top: 70px;
+    text-align: center;
 }
 
-p.div2{
-display: block;
-font-family: 'Helvetica', sans-serif;
-font-size: 15px;
-line-height: 21.4px;
-justify-content: center;
-line-height: 20px;
-margin-top: 0px;
-padding-bottom: 40px;
-text-align:center;  
+p.div2 {
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    line-height: 21.4px;
+    justify-content: center;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
-p.div3{
-box-sizing: border-box;
-display: block;
-font-family: 'Helvetica', sans-serif;
-font-size: 15px;
-line-height: 21.4px;
-justify-content: center;
-line-height: 20px;
-margin-right: 0px;
-padding-bottom: 100px;
-text-align:center;  
+p.div3 {
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    line-height: 21.4px;
+    justify-content: center;
+    line-height: 20px;
+    margin-right: 0px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+img.JBL4 {
+    height: 350px;
+    width: 350px;
+    margin-top: 0vw
+}
+
+.producten {
+    height: 130px;
+    width: 130px;
+    display: inline;
+    margin: 5vw;
+
+}
+
+.products {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw;
+    padding: 0vw 0vw 0vw 0vw;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+h2 {
+    margin: 10vw;
+    text-align: center;
+    font-size: 30px
+}
+
+p.einde {
+    margin: 0px 0px 50px 0px;
+    text-align: left;
 }
 
 
+article.waarom {
+    background-color: darkgrey;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+
+p.div1 {
+    color: white;
+    padding: 0vw;
+    margin: 0vw 0vw 10vw 0vw
+}
+
+
+article.titel {
+    display: inline;
+    margin: 4vw 4vw 0vw 4vw;
+    flex-wrap: wrap;
+}
+
+
+div.titel2 {
+    display: flex;
+    background-color: white;
+}
+
+p.titel3 {
+    margin: 0vw;
+    padding: 0vw 0vw 0vw 29vw;
+    text-align: right;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+p.titel3a {
+    color: red;
+    margin: 0vw;
+    padding: 0vw 0vw 0vw 12vw;
+    text-align: right;
+    font-size: 8px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+p.titel3b {
+    color: grey;
+    margin: 0vw;
+    padding: 0vw 0vw 0vw 28vw;
+    text-align: right;
+    font-size: 12px;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+p.titel3c {
+    color: red;
+    margin: 0vw 0vw 0vw 35vw;
+    text-align: right;
+    font-size: 12px;
+    justify-content: space-between;
+    font-size: 13px;
+    border: solid red 1px;
+    display: inline;
+}
+
+p.titel3d {
+    color: green;
+    margin: 0vw;
+    padding: 0vw 0vw 0vw 28vw;
+    text-align: right;
+    font-size: 15px;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+
+p.titel4 {
+    text-align: left;
+}
+
+img.check {
+    height: 12px;
+    width: 12px;
+    margin: 4vw;
+    display: inline-flex;
+}
+
+article.div5 {
+    flex-direction: column;
+    display: flex;
+    margin: 4vw;
+}
+
+p.check1 {
+    margin: 0vw;
+    text-align: left;
+    display: flex;
+}
+
+p.voorraad {
+    color: darkgreen;
+    font-size: 15px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+article.waarom2 {
+    background-color: whitesmoke;
+    color: black;
+}
+
+p.waarom3{color:gray;}
+
+img.bluetooth{height:50px;
+width:50px;}
+
+p.bt{font-size:20px;
+margin:2vw;
+}
+
+
+p.bt2{padding:0vw 10vw 0vw;
+margin:0vw 0vw 20vw 0vw;
+}
+
+article.article{background-color:black;}
+
+p.article2{color:white;
+font-size:30px;
+padding:10vw 5vw;
+    text-align:left;
+margin:0vw}
+
+p.article3{color:white;
+padding:4vw;
+text-align:left;}

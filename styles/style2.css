@@ -1,0 +1,2602 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*toegangelijkheid*/
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* hover over link */
+a:hover {
+  color: orange;
+}
+
+/* active link */
+a:active {
+  background-color: lightblue;
+    color:grey;
+}
+
+/*eerste pagina*/
+header > nav:nth-of-type(1) ul {
+
+    margin-bottom: 0.5vw;
+
+}
+
+header > nav:nth-of-type(1) ul li {
+    margin: 0vw 10vw;
+    float: right;
+    list-style: none;
+    
+}
+
+header > div {
+    background-color: red;
+    padding: 0.1vw;
+    margin: 0vw 0.1vw;
+    top: 1vw;
+    width: 100%;
+}
+
+header > nav:nth-of-type(2) li:nth-of-type(1) {
+    display: none;
+    height: 30px;
+    width: 30px;
+}
+
+nav ul {
+    background-color: white;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: 1vw;
+    height: 0px;
+}
+
+header > nav:nth-of-type(2) ul > li:nth-of-type(3),
+li:nth-of-type(4),
+li:nth-of-type(5),
+li:nth-of-type(6),
+li:nth-of-type(7) {
+    padding: 1vw 1vw;
+    font-size: 25px;
+}
+
+header > nav:nth-of-type(2) ul li img {
+    height: 60px;
+    width: 60px;
+
+}
+
+header > nav:nth-of-type(2) ul li:nth-of-type(8) img {
+    height: 30px;
+    width: 30px;
+    margin: 1vw;
+    margin-left: 40vw;
+}
+
+header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+    height: 30px;
+    width: 30px;
+    margin: 1vw;
+}
+
+/*karretje*/
+header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+    height: 30px;
+    width: 30px;
+    margin: 1vw;
+}
+
+/*banner*/
+main > img:nth-of-type(1) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 5vw 0vw;
+    text-align: center;
+    font-size: 25px;
+    position: relative
+}
+
+main > h1:nth-of-type(1) {
+    position: absolute;
+    top: 15vw;
+    left: 68vw;
+    font-size: 50px;
+    color: white;
+}
+
+main > p:nth-of-type(1) {
+    position: absolute;
+    top: 23vw;
+    left: 67vw;
+    font-size: 35px;
+    color: white;
+    margin: 1vw 3vw
+}
+
+main > a:nth-of-type(1) {
+    color: white;
+    background-color: red;
+    padding: 1vw 5vw;
+    font-size: 30px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 30vw;
+    display: inline-block;
+    position: absolute;
+    top: 35vw;
+    left: 73vw;
+
+
+}
+
+/*waarombij jbl kopen*/
+main > h2:nth-of-type(1) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px
+}
+
+
+main > section {
+    background-color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+
+main > section > article {
+    display: block;
+    padding: 1vw;
+    font-size: 30px;
+    margin: 0vw 5vw
+}
+
+main > section > article > p {
+    display: block;
+    padding: 2vw;
+    font-size: 25px;
+    margin: 0vw 1vw;
+    text-align: center;
+}
+
+main > section > article > img {
+    height: 20px;
+    width: 20px;
+}
+
+/*populaire producten*/
+main > h2:nth-of-type(2) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15vw
+}
+
+main > div:nth-of-type(1) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+main > div:nth-of-type(1) > article:nth-of-type(1) {
+    text-align: center;
+    margin: 1vw;
+    font-size: 22px;
+}
+
+main > div:nth-of-type(1) > article:nth-of-type(2) {
+    text-align: center;
+    margin: 1vw;
+    font-size: 22px;
+}
+
+main > div:nth-of-type(1) > article:nth-of-type(3) {
+    text-align: center;
+    margin: 1vw;
+    font-size: 22px;
+}
+
+main > div:nth-of-type(1) > article:nth-of-type(4) {
+    text-align: center;
+    margin: 1vw;
+    font-size: 22px;
+}
+
+main > div:nth-of-type(1) > article > img:nth-of-type(1) {
+    width: 20vw;
+    height: 20vw;
+}
+
+main > div:nth-of-type(1) > article a > img:nth-of-type(2),
+img:nth-of-type(3),
+img:nth-of-type(4) {
+    border-radius: 100%;
+    height: 2em;
+    width: 2em;
+    margin: 0.1vw
+}
+
+main > div:nth-of-type(1) > article > img:nth-of-type(2),
+img:nth-of-type(3),
+img:nth-of-type(4) {
+    border-radius: 100%;
+    height: 2em;
+    width: 2em;
+    margin: 0.1vw
+}
+
+
+main > div:nth-of-type(1) > article > img:nth-of-type(5),
+img:nth-of-type(6),
+img:nth-of-type(7),
+img:nth-of-type(8),
+img:nth-of-type(9),
+img:nth-of-type(10),
+img:nth-of-type(11),
+img:nth-of-type(12) {
+    height: 20px;
+    width: 20px;
+    margin: 0.1vw;
+}
+
+main > div:nth-of-type(1) > article:nth-of-type(3) > img:nth-of-type(3),
+img:nth-of-type(4),
+img:nth-of-type(5),
+img:nth-of-type(6),
+img:nth-of-type(9),
+img:nth-of-type(10),
+img:nth-of-type(11),
+img:nth-of-type() {
+    height: 20px;
+    width: 20px;
+    margin: 0.1vw;
+}
+
+/*discover JBL*/
+main > h2:nth-of-type(3) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 12vw
+}
+
+main > div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+main > div:nth-of-type(2) img {
+    height;
+    13vw;
+    width: 13vw;
+    margin: 0vw 1.5vw;
+
+}
+
+main > div:nth-of-type(2) p {
+    font-size: 25px;
+    margin: 0.5vw 1.5vw;
+}
+
+/*footer*/
+main > div:nth-of-type(3) {
+    margin: 4vw auto;
+    padding: 2vw;
+    text-align: center;
+    display: flex;
+    width: 59vw;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 40px;
+    width: 30vw;
+    margin: 5vw 2vw;
+    padding: 8px 20px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+footer > section {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+
+footer > section > article {
+    margin: 0vw auto;
+    width: 10%;
+}
+
+/*2de pagina*/
+
+/*pagina layout*/
+#detailpagina > div:nth-last-of-type(2) {
+    margin: 3vw 0vw;
+    display: grid;
+    grid-template-columns: auto 30vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div:first-child {
+    grid-column-start: 1;
+    width: 69.5vw;
+
+}
+
+/*jbl charge 4 foto*/
+#detailpagina > div:nth-last-of-type(3) {
+    grid-column-start: 1;
+    width: 69vw;
+}
+
+.grey {
+    margin-top: 3vw;
+    background-color: rgb(237, 240, 241);
+}
+
+#detailpagina > div:nth-last-of-type(2) div div div img {
+    margin: 5vw 0vw 0vw 7vw;
+    width: 55vw;
+    height: 35vw;
+    background-color: rgb(237, 240, 241);
+}
+
+
+/*sidebar*/
+#detailpagina > div:nth-of-type(1) {
+    margin: 6vw 0vw;
+    padding: 2vw;
+    position: fixed;
+    right: 0;
+    width: 30vw;
+    background-color: ghostwhite;
+}
+
+#detailpagina > div:nth-of-type(1) > h2 {
+    font-size: 30px;
+    margin-top: 1vw;
+}
+
+#detailpagina > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 20px;
+    margin: 0vw;
+}
+
+/*sterren*/
+#detailpagina > div:nth-of-type(1) > img:nth-of-type(1),
+img:nth-of-type(2),
+img:nth-of-type(3),
+img:nth-of-type(4),
+img:nth-of-type(5),
+img:nth-of-type(6) {
+    height: 20px;
+    width: 20px;
+    margin: 0.1vw;
+}
+
+#detailpagina > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 15px;
+    color: darkblue;
+}
+
+#detailpagina > div:nth-of-type(1) > article {
+    display: flex;
+}
+
+#detailpagina > div:nth-of-type(1) > article > img {
+    height: 15px;
+    width: 15px;
+    margin: 0.3vw 0.5vw;
+}
+
+#detailpagina > div:nth-of-type(1) > article > p {
+    display: flex;
+    margin: 0vw;
+
+}
+
+#detailpagina > div:nth-of-type(1) > div > img {
+    border-radius: 100%;
+    width: 2em;
+    height: 2em;
+}
+
+#detailpagina > div:nth-of-type(1) > h3 {}
+
+#detailpagina > div:nth-of-type(1) > p:nth-of-type(7) {
+    color: white;
+    background-color: red;
+    padding: 1vw 2vw;
+    font-size: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 10vw;
+    align-content: center;
+    display: inline-block;
+
+}
+
+#detailpagina > div:nth-of-type(1) > p:nth-of-type(7) img {
+    height: 30px;
+    width: 50px
+}
+
+
+/*main*/
+
+#detailpagina > div:nth-last-of-type(2) div nav ul li {
+    display: inline;
+    margin: auto 3vw;
+    display: flex;
+    font-size: 20px;
+}
+
+/*functies*/
+#detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(1) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div article {
+    display: flex;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div article img {
+    height: 25vw;
+    width: 38vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#detailpagina > div:nth-last-of-type(2) > div article div {
+    display: inline;
+    margin: 0vw 2vw;
+    text-align: center;
+
+}
+
+#detailpagina > div:nth-last-of-type(2) > div article div p:nth-of-type(1) {
+    font-size: 2.5em;
+    object-position: center;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div article div p:nth-of-type(2) {
+    font-size: 1.5em;
+    display: inline;
+    margin: 0vw;
+}
+
+/*functies deel 2*/
+
+#detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) {
+    display: flex;
+    margin: 6vw 4vw
+}
+
+#detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article {
+    display: inline;
+    margin: 0vw 4vw;
+    text-align: center;
+    padding: 0vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article img {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    margin: 1vw 5vw;
+
+}
+
+#detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article p {
+    font-size: 20px;
+    margin: 0vw;
+}
+
+/*accesoires*/
+#detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(2) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) {
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 2vw 20vw
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) img {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    margin: 3vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) div img {
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+    display: inline;
+    margin: 0.5vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) p:nth-of-type(4) {
+    color: white;
+    background-color: red;
+    padding: 1vw 4vw;
+    font-size: 18px;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+/*details and dowloads*/
+
+#detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(3) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) {
+    font-size: 30px;
+    margin: 1vw;
+}
+
+/*mischien vind je dit ook leuk*/
+
+#detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(4) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article {
+    text-align: center;
+    margin: 1vw;
+    font-size: 22px;
+    display: block
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article div img {
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+    display: inline;
+    margin: 0.5vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article img {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin: auto
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article p {
+    font-size: 15px;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article p:nth-of-type(6) {
+    color: white;
+    background-color: red;
+    padding: 1vw 4vw;
+    font-size: 18px;
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+/*q&a*/
+#detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(5) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(8) {
+    font-size: 30px;
+    margin: 1vw;
+}
+
+/*onbegrensd afspelen*/
+#detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(6) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(9) p {
+    margin: auto 3vw;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) {
+    display: none;
+}
+
+
+/*footer*/
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(10) {
+    margin: 5vw;
+    padding: 2vw;
+    text-align: center;
+    display: flex;
+    width: 59vw;
+
+}
+
+#detailpagina > footer > section {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    display: flex;
+    width: 69vw;
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    height: 40px;
+    width: 30vw;
+    margin: 5vw 2vw;
+    padding: 8px 20px;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+/*micro interactie*/
+.interaction {
+    position: absolute;
+    top: 12vw;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 25.5vw;
+    text-transform: capitalize;
+    transform: scale(1);
+    animation: pulse-black 2s infinite;
+    color: black;
+    background: rgb(237, 240, 241);
+}
+
+@keyframes pulse-black {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+/* media queries*/
+
+/*laptop*/
+@media screen and (max-width: 1024px) {
+
+    header > nav:nth-of-type(1) ul {
+        display: none
+    }
+
+
+    /*line*/
+    header > div {
+        display: none;
+    }
+
+
+    /*tweede header*/
+    header > nav:nth-of-type(2) ul > li:nth-of-type(3),
+    li:nth-of-type(4),
+    li:nth-of-type(5),
+    li:nth-of-type(6),
+    li:nth-of-type(7) {
+        display: none;
+    }
+
+    /*jbl logo*/
+    header > nav:nth-of-type(2) ul > li:nth-of-type(2) {
+        position: absolute;
+        left: 50vw;
+        height: 15px;
+        width: 15px;
+    }
+
+    /*burger*/
+    header > nav:nth-of-type(2) li:nth-of-type(1) {
+        display: block;
+        position: absolute;
+        left: 5vw;
+        top: 2vw;
+        height: 1vw;
+        width: 1vw;
+
+    }
+
+    /*poppetje*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(8) img {
+        display: none;
+    }
+
+    /*search*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 95vw;
+    }
+
+    /*karretje*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 102vw;
+    }
+
+
+    /*banner*/
+    main > img:nth-of-type(1) {
+        width: 110%;
+        height: 100%;
+        object-fit: cover;
+        margin: 7vw 0vw
+    }
+
+    /*textbanner*/
+    main > h1:nth-of-type(1) {
+        top: 15vw;
+        left: 78vw;
+        font-size: 40px;
+    }
+
+    main > p:nth-of-type(1) {
+        top: 26vw;
+        left: 75vw;
+        font-size: 25px;
+
+    }
+
+    /*buttonbanner*/
+    main > a:nth-of-type(1) {
+        font-size: 20px;
+        top: 40vw;
+        left: 78vw;
+    }
+
+
+    /*waarom bij JbL kopen*/
+    
+    main > h2:nth-of-type(2)
+    {width:110vw;
+        
+    }
+    main > section{
+        width:110vw;
+        
+    }
+    main > section > article > img {
+        height: 50px;
+        width: 50px;
+    }
+
+    /*populaire producten*/
+    
+    main > div:nth-of-type(1){width:110vw;
+}
+    main > div:nth-of-type(1) > article {
+        margin: 4vw;
+    }
+
+    main > div:nth-of-type(1) > article a > img:nth-of-type(1) {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    main > div:nth-of-type(1) > article > img:nth-of-type(1) {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    main > div:nth-of-type(1) > article:nth-of-type(4) {
+        display: none
+    }
+
+    main > div:nth-of-type(1) > article a > img:nth-of-type(2),
+    img:nth-of-type(3),
+    img:nth-of-type(4) {
+        border-radius: 100%;
+        height: 2em;
+        width: 2em;
+        margin: 0.1vw
+    }
+
+    main > div:nth-of-type(1) > article > img:nth-of-type(2),
+    img:nth-of-type(3),
+    img:nth-of-type(4) {
+        border-radius: 100%;
+        height: 2em;
+        width: 2em;
+        margin: 0.1vw;
+    }
+
+
+    main > div:nth-of-type(1) > article > img:nth-of-type(5),
+    img:nth-of-type(6),
+    img:nth-of-type(7),
+    img:nth-of-type(8),
+    img:nth-of-type(9),
+    img:nth-of-type(10),
+    img:nth-of-type(11),
+    img:nth-of-type(12) {
+        height: 20px;
+        width: 20px;
+        margin: 0.1vw;
+    }
+
+    main > div:nth-of-type(1) > article:nth-of-type(3) > img:nth-of-type(3),
+    img:nth-of-type(4),
+    img:nth-of-type(5),
+    img:nth-of-type(6),
+    img:nth-of-type(9),
+    img:nth-of-type(10),
+    img:nth-of-type(11),
+    img:nth-of-type() {
+        height: 20px;
+        width: 20px;
+        margin: 0.1vw;
+    }
+
+    /*discover JBL*/
+main > h2:nth-of-type(3) {
+    width:110vw;
+}
+
+main > div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:110vw;
+
+}
+    /*populaire producten*/
+    main > h2:nth-of-type(3) {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 12vw
+    }
+
+    main > div:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+
+
+    }
+
+    main > div:nth-of-type(2) img {
+        height;
+        20vw;
+        width: 20vw;
+        margin: 0vw 1.5vw;
+        flex-wrap: wrap;
+
+    }
+
+    main > div:nth-of-type(2) p {
+        font-size: 20px;
+        margin: 0.5vw 1.5vw;
+
+    }
+
+    /*pre-footer*/
+    main > div:nth-of-type(3) {
+        margin: 4vw auto;
+        padding: 2vw;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        width: 59vw;
+        font-size: 20px;
+            width:110vw;
+    }
+
+    input[type=text] {
+        width: 80%;
+        height: 40px;
+        width: 20vw;
+        margin: 5vw 2vw;
+        padding: 8px 20px;
+        border: 2px solid red;
+        border-radius: 4px;
+    }
+
+    /*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 110%;
+    }
+
+
+    footer > section > article {
+        margin: 0vw auto;
+        width: 10%;
+    }
+
+
+    /*tweede pagina*/
+
+    /*header*/
+
+    #detailpagina > header > nav:nth-of-type(2) ul > li:nth-of-type(3),
+    li:nth-of-type(4),
+    li:nth-of-type(5),
+    li:nth-of-type(6),
+    li:nth-of-type(7) {
+        display: none;
+    }
+
+    /*persoon*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 85vw;
+    }
+
+    /*karretje*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 91vw;
+    }
+
+
+    #detailpagina > div:nth-last-of-type(2) {
+        margin: 3vw 0vw;
+        grid-template-columns: auto;
+        flex-direction: column;
+    }
+
+
+    #detailpagina > div:nth-last-of-type(2) > div:first-child {
+        grid-column-start: 1;
+        width: 100%;
+    }
+
+    /*jbl charge 4 foto*/
+
+    #detailpagina #detailpic {
+        height: 50vw;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 5vw
+    }
+
+    #detailpagina > div:nth-last-of-type(3) {
+        width: 100vw;
+    }
+
+    .grey {
+        margin-top: 3vw;
+        background-color: rgb(237, 240, 241);
+    }
+
+    #detailpagina > div:nth-last-of-type(2) div div div img {
+        margin: 5vw 0vw 0vw 7vw;
+        width: 55vw;
+        height: 35vw;
+        ;
+    }
+
+    /*sidebars*/
+    #detailpagina > div:nth-of-type(1) {
+        display: block;
+        margin: 60vw 0vw 0vw;
+        padding: 2vw;
+        right: 0;
+        position: relative
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) h3:nth-of-type(1) {
+    font-size:25px
+    }
+    
+    #detailpagina > div:nth-of-type(1) p:nth-of-type(3) {
+     background-color: red;
+        color:white;
+        display: inline-block;
+            padding:2vw;
+        border-radius: 10%;
+        margin:0vw
+    }
+#detailpagina > div:nth-of-type(1) p:nth-of-type(3) img {
+     height:40px;
+    width:40px;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(2) {
+        display: none;
+
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div {
+        display: none;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) div img {
+        height: 3em;
+        width: 3em;
+        margin: 0.1vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) div:nth-of-type(2) img {
+        height: 3em;
+        width: 3em;
+        margin: 0.1vw;
+        display: inline;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3) {
+        display: flex;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3) > article {
+        display: block;
+        margin: 4vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3) > article > img {
+        background-color: ghostwhite;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3) > article p {
+        font-size: 25px;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4) {
+        display: block;
+
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(5) img {
+        background-color: red
+    }
+
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) {
+        display: flex;
+        margin: auto
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) article {
+        display: block;
+        margin: 5vw;
+    }
+
+    /*einde*/
+    /*nav3rde*/
+    #detailpagina > div:nth-last-of-type(2) > div > nav {
+        display: none;
+    }
+
+    /*functies*/
+    #detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(1) {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 7vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article {
+        display: block;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article:nth-of-type(2) {
+        display: none;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article:nth-of-type(3) {
+        display: none;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article img {
+        height: 55vw;
+        width: 85vw;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article div {
+        display: inline;
+        margin: 0vw 2vw;
+        text-align: center;
+
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article div p:nth-of-type(1) {
+        font-size: 2.5em;
+        object-position: center;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div article div p:nth-of-type(2) {
+        font-size: 1.5em;
+        display: inline;
+        margin: 0vw;
+    }
+
+
+    /*JBl connect*/
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) {
+        display: flex;
+        margin: 6vw 4vw
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article {
+        display: inline;
+        margin: 0vw 4vw;
+        text-align: center;
+        padding: 0vw;
+
+    }
+
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article:nth-of-type(3) {
+        display: none;
+
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article img {
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article p {
+        font-size: 20px;
+        margin: 0vw;
+    }
+
+    /*accessoires*/
+    #detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(2) {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 7vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) {
+        justify-content: center;
+        text-align: center;
+        display: inline-block;
+        background-color: whitesmoke;
+        margin: 2vw 20vw
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) img {
+        width: 300px;
+        height: 300px;
+        justify-content: center;
+        text-align: center;
+        margin: 3vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) div img {
+        width: 20px;
+        height: 20px;
+        border-radius: 0%;
+        display: inline;
+        margin: 0.5vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) p:nth-of-type(4) {
+        color: white;
+        background-color: red;
+        padding: 1vw 4vw;
+        font-size: 18px;
+        border-radius: 40px;
+        text-align: center;
+        align-content: center;
+        display: inline-block;
+    }
+
+    /*misschien vind je dit ook leuk*/
+    /*onbegrensd afspelen*/
+    #detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(6) {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 7vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(8) p {
+        margin: auto 3vw;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) {
+        display: none;
+    }
+
+
+    /*footer*/
+
+    #detailpagina > footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 100vw;
+    }
+
+
+
+    input[type=text] {
+        width: 100%;
+        height: 40px;
+        width: 30vw;
+        margin: 5vw 2vw;
+        padding: 8px 20px;
+        border: 2px solid red;
+        border-radius: 4px;
+    }
+
+
+    /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 12vw;
+        left: 37vw;
+        font-size: 25px;
+    }
+
+}
+
+
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+
+    /*tweede header*/
+
+
+    /*jbl logo*/
+    header > nav:nth-of-type(2) ul > li:nth-of-type(2) {
+        position: absolute;
+        left: 60vw;
+        height: 15px;
+        width: 15px;
+    }
+
+    /*burger*/
+    header > nav:nth-of-type(2) li:nth-of-type(1) {
+        display: block;
+        position: absolute;
+        left: 5vw;
+        top: 2vw;
+        height: 1vw;
+        width: 1vw;
+
+    }
+
+    /*poppetje*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(8) img {
+        display: none;
+    }
+
+    /*search*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 105vw;
+    }
+
+    /*karretje*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 115vw;
+    }
+
+
+    /*banner*/
+    main > img:nth-of-type(1) {
+        width: 128%;
+        height: 120%;
+        object-fit: cover;
+        margin: 10vw 0vw
+    }
+
+    /*textbanner*/
+    main > h1:nth-of-type(1) {
+        font-size: 50px;
+        position: static;
+        color: black;
+        margin: 2vw 2vw;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+width:125%;
+
+    }
+
+    main > p:nth-of-type(1) {
+        position: static;
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        width:125%;
+    }
+
+    /*buttonbanner*/
+    main > a:nth-of-type(1) {
+        font-size: 20px;
+        position: static;
+        color: white;
+        margin: 5vw 40vw;
+        text-align: center;
+        justify-content: center;
+        width:45%;
+    }
+
+
+    /*waarom bij JbL kopen*/
+    main > h2:nth-of-type(1) {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin: 5vw auto;
+         width:125vw
+    }
+
+
+    main > section {
+        background-color: whitesmoke;
+        margin: 6vw 1vw;
+        width:125vw
+    }
+
+    /*populaire producten*/
+    
+    main > h2:nth-of-type(2){
+        width:125vw;
+    } 
+    main > div:nth-of-type(1) {
+        margin: 4vw 1vw;
+         width:125vw;
+    }
+
+    main > div:nth-of-type(1) > article {
+        margin: 10vw;
+
+
+    }
+/*discover JBL*/
+    main > h2:nth-of-type(3) {
+    width:125vw;
+}
+
+main > div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:125vw;
+
+}
+    /*pre-footer*/
+    main > div:nth-of-type(3) {
+        margin: 4vw auto;
+        padding: 2vw;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        width: 59vw;
+        font-size: 20px;
+            width: 130%;
+    }
+
+    input[type=text] {
+        width: 80%;
+        height: 40px;
+        width: 20vw;
+        margin: 5vw 2vw;
+        padding: 8px 20px;
+        border: 2px solid red;
+        border-radius: 4px;
+        width: 80%;
+    }
+
+    /*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 130%;
+    }
+
+
+    footer > section > article {
+        margin: 0vw auto;
+        width: 10%;
+    }
+
+    /*2depagina*/
+
+
+    /*persoon*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 85vw;
+    }
+
+    /*karretje*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 91vw;
+    }
+
+
+    /*jbl charge 4 foto*/
+
+    #detailpagina #detailpic {
+        height: 50vw;
+        width: 95vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 2%;
+        position: absolute;
+        top: 27vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(3) {
+        width: 100vw;
+    }
+
+    .grey {
+        margin-top: 3vw;
+        background-color: rgb(237, 240, 241);
+    }
+
+    #detailpagina > div:nth-last-of-type(2) div div div img {
+        margin: 5vw 0vw 0vw 7vw;
+        width: 55vw;
+        height: 35vw;
+        ;
+    }
+
+    /*sidebars*/
+    /*sidebar positions*/
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        position: absolute;
+        top: -88vw;
+        display: inline;
+        left: 1vw;
+        margin: 5vw;
+        font-size: 15px;
+            width:30vw;
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1)img {
+        display: inline;
+
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -12vw;
+        display: inline-block;
+        left: 20vw;
+        margin: 4vw;
+        font-size: 15px;
+
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2)img {
+        height: 4em;
+        width: 4em;
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        position: absolute;
+        top: -90vw;
+        display: inline;
+        left: 75vw;
+        margin: 5vw;
+        font-size: 15px;
+        width:20vw;
+        line-height: 15px;
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        display: block;
+        margin: 90vw 0vw 0vw;
+        padding: 2vw;
+        right: 0;
+        position: relative
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(2) {
+        display: block;
+        margin: 3vw 0vw;
+        padding: 2vw;
+        right: 0;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) > div h2 {
+        font-size: 30px;
+        text-align: left;
+        margin: 1vw;
+    }
+
+
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(2) div img {
+        height: 3em;
+        width: 3em;
+        margin: 0.1vw;
+    }
+
+    /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 32vw;
+        left: 35vw;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    main > img:nth-of-type(1) {
+        width: 125%;
+        height: 100vh;
+        object-fit: cover;
+        margin: 15vw 0vw;
+    }
+
+    main > h1:nth-of-type(1) {
+        font-size: 50px;
+
+    }
+
+    main > p:nth-of-type(1) {
+        color: black;
+        font-size: 30px;
+    }
+    
+/*discover JBL*/
+
+
+main > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-left:24.5vw
+
+}
+
+main > div:nth-of-type(2) img {
+    height;
+   30vw;
+    width:30vw;
+    margin: 0vw 1.5vw;
+
+}
+
+main > div:nth-of-type(2) p {
+    font-size: 20px;
+    margin: 0.5vw 1.5vw;
+    text-align: left;
+  padding:0vw 0vw
+}
+
+    
+/*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 130%;
+    }
+
+
+/*2de pagina*/
+    
+     #detailpagina #detailpic {
+        height: 60vh;
+        width: 105vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 2%;
+        position: absolute;
+        top: 35vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(3) {
+        width: 30vw;
+    }
+
+  /*sidebars*/
+    /*sidebar positions*/
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        position: absolute;
+        top: -100vw;
+        display: inline;
+        left: 1vw;
+        margin: 5vw;
+        font-size: 15px;
+         line-height: 20px;
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1)img {
+        display: inline;
+
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -12vw;
+        display: inline-block;
+        left: 20vw;
+        margin: 4vw;
+        font-size: 15px;
+
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2)img {
+        height: 4em;
+        width: 4em;
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        position: absolute;
+        top: -100vw;
+        display: inline;
+        left: 80vw;
+        margin: 5vw;
+        font-size: 15px;
+        line-height: 15px;
+        
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        margin: 105vw 0vw 0vw;
+        padding: 2vw;
+        right: 0;
+        position: relative;
+         display: inline-block;
+        width:110%
+    }
+
+    /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 39vw;
+        left: 35vw;
+        font-size: 25px;
+    }
+    
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article:nth-of-type(3) {
+    display: none;
+}
+
+/*footer*/
+     #detailpagina footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 130%;
+    }
+
+
+}
+
+@media screen and (max-width: 540px) {
+
+    
+  main > div:nth-of-type(1) > article:nth-of-type(1) {
+    text-align: center;
+    margin: 1vw;
+    font-size: 25px;
+}
+    
+    main > div:nth-of-type(1) > article:nth-of-type(1) img:nth-of-type(1) {
+        width:300px;
+        height:300px
+    }
+    
+    main > div:nth-of-type(1) > article:nth-of-type(2) {
+  display:none
+}
+
+main > div:nth-of-type(1) > article:nth-of-type(3) {
+   display:none;
+}
+    
+    /*discover jbl*/
+    main > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+        margin:2vw;
+        
+
+}
+
+    main > div:nth-of-type(2){
+        width:120vw
+    }
+main > div:nth-of-type(2) img {
+    height;
+   40vw;
+    width:40vw;
+    margin: 0vw 3vw;
+
+}
+
+main > div:nth-of-type(2) p {
+    font-size: 20px;
+    margin: 0.5vw 1.5vw;
+    text-align: left;
+  padding:0vw 0vw
+}
+
+    
+/*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 130%;
+    }
+
+
+
+    /*persoon*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 105vw;
+    }
+
+    /*karretje*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 115vw;
+    }
+
+  #detailpagina #detailpic {
+        width: 120vw; 
+    }
+
+  /*sidebars*/
+    /*sidebar positions*/
+
+#detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        left: 1vw; 
+    top:-105vw;
+    }
+   
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -10vw;    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        left: 100vw;
+         top:-105vw;
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        margin: 110vw 0vw 0vw;
+        width:128%
+    }
+    #detailpagina > div:nth-last-of-type(2) div h2:nth-of-type(4) {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7vw;
+}
+    /*functies*/
+    #detailpagina > div:nth-last-of-type(2) > div article img {
+        height: 75vw;
+        width: 115vw;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    /*jblconnect*/
+  #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article:nth-of-type(1){
+        margin:20vw 10vw;
+    }
+
+    #detailpagina > div:nth-last-of-type(2) > div div:nth-of-type(3) article:nth-of-type(2) {
+        display: none;
+
+    }
+    
+    /*accessoires*/
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(4) > article:nth-of-type(1) {
+    
+    margin: 2vw 32vw
+}
+
+
+    
+/*misschien vind je dit ook leuk*/
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:5vw 35vw;
+
+}
+    #detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article{
+background-color: whitesmoke;}
+    
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article:nth-of-type(2) {
+    display: none;
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article img {
+    height: 300px;
+    width: 300px;
+    margin: 5vw auto;
+    
+}
+
+#detailpagina > div:nth-last-of-type(2) > div > div:nth-of-type(6) article p {
+    font-size: 20px;
+}
+
+
+}
+
+/*telefoon*/
+@media screen and (max-width: 480px) {
+ 
+    /*jbl logo*/
+    header > nav:nth-of-type(2) ul > li:nth-of-type(2) {
+        position: absolute;
+        left: 55vw;
+    
+    }
+    /*search*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        left: 95vw;
+    }
+
+    /*karretje*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        left: 108vw;
+    }
+
+
+    /*banner*/
+    main > img:nth-of-type(1) {
+        width: 125%;
+        height: 100vw;
+        object-fit: cover;
+        margin: 15vw 0vw
+    }
+
+    /*textbanner*/
+    main > h1:nth-of-type(1) {
+        top: 15vw;
+        left: 88vw;
+        font-size: 48px;
+    }
+
+    main > p:nth-of-type(1) {
+        top: 26vw;
+        left: 75vw;
+        font-size: 30px;
+
+    }
+
+    /*buttonbanner*/
+    main > a:nth-of-type(1) {
+        font-size: 20px;
+        top: 40vw;
+        left: 78vw;
+        padding:30px;
+    }
+
+    /*discover JBL*/
+
+    main > div:nth-of-type(2){
+        width:118vw
+    }
+    main > div:nth-of-type(2) img {
+        height;
+        40vw;
+        width: 40vw;
+        margin: 0vw 1.5vw;
+        flex-wrap: wrap;
+
+    }
+
+    main > div:nth-of-type(2) p {
+        font-size: 22px;
+        margin: 0.5vw 1.5vw;
+
+    }
+
+    /*pre-footer*/
+    main > div:nth-of-type(3) {
+        margin: 2vw auto;
+        padding: 2vw;
+        justify-content: center;
+        text-align: center;
+        display: block;
+        width: 120vw;
+        font-size: 20px
+    }
+
+    input[type=text] {
+        width: 80%;
+        height: 40px;
+        width: 20vw;
+        margin: 5vw 2vw;
+        padding: 8px 20px;
+        border: 2px solid red;
+        border-radius: 4px;
+    }
+
+    /*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 125%;
+    }
+
+
+    footer > section > article {
+        margin: 0vw auto;
+        width: 10%;
+    }
+    
+    /*2de pagina*/
+    
+    #detailpagina #detailpic {
+        height: 80vw;
+        width: 125vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 40vw
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        left: 1vw; 
+    top:-120vw;
+    }
+   
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -10vw;    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        left: 100vw;
+         top:-122vw;
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        margin: 130vw 0vw 0vw;
+        width:138%
+    }
+
+    /*functies*/
+    #detailpagina > div:nth-last-of-type(2) > div article img {
+        height: 75vw;
+        width: 115vw;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+     /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 45vw;
+        left: 43vw;
+        font-size: 25px;
+        
+    }
+ #detailpagina > footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 140vw;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+     main > img:nth-of-type(1) {
+        width: 130%;
+        height: 100vw;
+        object-fit: cover;
+        margin: 15vw 0vw
+    }
+    /*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 130%;
+    }
+    
+    /*2depagina*/
+        #detailpagina #detailpic {
+        height: 90vw;
+        width: 125vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 30vw;
+    }
+
+     #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 125vw;
+    }
+
+    /*karretje*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 145vw;
+    }
+    
+    #detailpagina #detailpic {
+        height: 100vw;
+        width: 155vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 52vw
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        left: 1vw; 
+    top:-148vw;
+        width:230px
+    }
+   
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -10vw;    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        left: 120vw;
+         top:-150vw;
+        width:120px
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        margin: 160vw 0vw 0vw;
+        width:170%
+    }
+#detailpagina > footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 160vw;
+    }
+    
+     /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 130vw;
+        left: 113vw;
+        font-size: 25px;
+        width:50vw
+        
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+   main > img:nth-of-type(1) {
+        width: 135%;
+        height: 100vw;
+        object-fit: cover;
+        margin: 15vw 0vw
+    }
+    /*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 135%;
+    }
+    
+    
+    /*2de pagina*/
+
+    #detailpagina #detailpic {
+        height: 90vw;
+        width: 125vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 30vw;
+    }
+
+     #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 125vw;
+    }
+
+    /*karretje*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 145vw;
+    }
+    
+    #detailpagina #detailpic {
+        height: 100vw;
+        width: 155vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 62vw
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        left: 1vw; 
+    top:-158vw;
+    }
+   
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -10vw;    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        left: 130vw;
+         top:-160vw;
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        margin: 170vw 0vw 0vw;
+        width:170%
+    }
+#detailpagina > footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 160vw;
+    }
+    
+     /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 140vw;
+        left: 113vw;
+        font-size: 25px;
+        width:50vw
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+     /*jbl logo*/
+    header > nav:nth-of-type(2) ul > li:nth-of-type(2) {
+        position: absolute;
+        left: 60vw;
+    
+    }
+    /*search*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        left: 105vw;
+    }
+
+    /*karretje*/
+    header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        left: 120vw;
+    }
+
+
+    /*banner*/
+    main > img:nth-of-type(1) {
+        width: 150%;
+        height: 140vw;
+        object-fit: cover;
+        margin: 25vw 0vw
+    }
+
+    /*textbanner*/
+    main > h1:nth-of-type(1) {
+        top: 15vw;
+        left: 88vw;
+        font-size: 48px;
+        width:130vw;
+    }
+
+    main > p:nth-of-type(1) {
+        top: 26vw;
+        left: 95vw;
+        font-size: 30px;
+        width:130vw
+       
+    }
+
+    /*buttonbanner*/
+    main > a:nth-of-type(1) {
+        font-size: 20px;
+        top: 40vw;
+        left: 78vw;
+        padding:30px;
+        width:60vw;
+        margin:5vw 40vw 50vw;
+    }
+
+    /*discover JBL*/
+
+    main > div:nth-of-type(2){
+        width:135vw
+    }
+    main > div:nth-of-type(2) img {
+        height;
+        60vw;
+        width:60vw;
+        margin: 0vw 1.5vw;
+        flex-wrap: wrap;
+
+    }
+
+    main > div:nth-of-type(2) p {
+        font-size: 22px;
+        margin: 0.5vw 1.5vw;
+
+    }
+    
+    /*waarom bij JbL kopen*/
+    main > h2:nth-of-type(1) {
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        margin: 5vw auto;
+         width:145vw;
+    }
+
+
+    main > section {
+        background-color: whitesmoke;
+        margin: 6vw 1vw;
+      width:138vw
+    }
+
+    /*pre-footer*/
+    main > div:nth-of-type(3) {
+        width: 140vw;
+      
+    }
+
+    input[type=text] {
+        width: 70vw;
+    }
+
+    /*footer*/
+    footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 145%;
+    }
+
+
+    footer > section > article {
+        margin: 0vw auto;
+        width: 10%;
+    }
+    
+    /*2de pagina*/
+    /*persoon*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(9) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 125vw;
+    }
+
+    /*karretje*/
+    #detailpagina > header > nav:nth-of-type(2) ul li:nth-of-type(10) img {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 145vw;
+    }
+    
+    #detailpagina #detailpic {
+        height: 100vw;
+        width: 155vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 5% 5%;
+        position: absolute;
+        top: 62vw
+    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(1) {
+        left: 1vw; 
+    top:-158vw;
+        width:250px;
+    }
+   
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(2) {
+        position: absolute;
+        top: -10vw;    }
+
+    #detailpagina > div:nth-of-type(1) div:nth-of-type(3) {
+        left: 120vw;
+         top:-160vw;
+         width:130px;
+    }
+
+    #detailpagina > div:nth-of-type(1) {
+        margin: 170vw 0vw 0vw;
+        width:170%
+    }
+
+    /*functies*/
+    #detailpagina > div:nth-last-of-type(2) > div article img {
+        height: 75vw;
+        width: 115vw;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+    
+     /*interactie*/
+    .interaction {
+        position: absolute;
+        top: 135vw;
+        left: 103vw;
+        font-size: 25px;
+        width:200px;
+    }
+ #detailpagina > footer > section {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 170vw;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+
+    img.nav2 {
+        height: 70px;
+        width: 70px;
+
+    }
+
+    img.nav3 {
+        height: 32px;
+        width: 32px;
+        margin-left: 45vw;
+    }
+
+
+
+    #detailpic {
+        height: 50vh;
+        width: 175vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin: 50% 00% 0% 0%;
+    }
+
+    .interaction {
+        position: absolute;
+        top: 170vw;
+        left: 145vw;
+        font-size: 15px;
+        display: block;
+    }
+
+    .position2 {
+        position: absolute;
+        top: 35vw;
+        display: inline;
+        left: 140vw;
+        margin: 5vw;
+        text-align: left;
+    }
+
+    .grey {
+
+        margin-top: 3vw;
+        background-color: rgb(237, 240, 241);
+    }
+
+
+    .pre-footer1 {
+        display: inline;
+        margin: auto;
+        width: 150%;
+        justify-content: center;
+        display: block;
+        margin: 20vw;
+    }
+
+    input[type=text] {
+        height: 40px;
+        width: 100vw;
+        margin: 5vw 40vw;
+        padding: 8px 20px;
+        border: 2px solid red;
+        border-radius: 4px;
+        justify-content: center;
+    }
+
+
+
+    .footer1 {
+        margin: 0vw auto;
+        width: 100%;
+    }
+
+
+    .footer {
+        background-color: rgb(18, 18, 18);
+        color: white;
+        display: flex;
+        width: 190%;
+    }
+
+    .footer1 {
+        margin: 0vw auto;
+    }
+}
+
+@media screen and (max-width: 260px) {
+    #detailpic {
+        width: 184vw;
+    }
+
+    .footer {
+        width: 200%;
+    }
+
+}
+
+@media screen and (max-width: 240px) {
+    #detailpic {
+        width: 194vw;
+        margin: 50% 00% 0% 0%;
+
+    }
+
+    .interaction {
+        position: absolute;
+        top: 195vw;
+        left: 150vw;
+        font-size: 15px;
+    }
+
+    img.nav3 {
+
+        margin-left: 60vw;
+    }
+
+    .position2 {
+        position: absolute;
+        top: 35vw;
+        display: inline;
+        left: 145vw;
+        margin: 5vw;
+        text-align: left;
+    }
+
+    .footer {
+        width: 208%;
+    }
+
+}
